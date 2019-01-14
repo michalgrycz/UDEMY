@@ -1,3 +1,5 @@
-console.log("START");
-// console.log(constVariable);
-const constVariable = 1;
+const tabList = [];
+tabList.push("Ala");
+tabList.push("Ela");
+tabList.unshift("Jola");
+// tabList.shift(2);

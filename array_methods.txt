@@ -1,0 +1,4 @@
+push - dodaje element na końcu tablicy
+unshift - dodaje element na początku tablicy
+shift - usuwa element z początku tablicy
+pop - usuwa element z końca tablicy

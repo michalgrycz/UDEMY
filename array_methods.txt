@@ -1,0 +1,21 @@
+push - dodaje element na końcu tablicy (zwraca długość tablicy)
+unshift - dodaje element na początku tablicy (zwraca długość tablicy)
+shift - usuwa element z początku tablicy (zwraca wartość usuniętą)
+pop - usuwa element z końca tablicy (zwraca wartość usuniętą)
+concat - tworzy nową tablicę i łączy wartości z innycha tablic np. 
+const tab1 = tab2.concat(tab3, tab4, ...)
+lub
+operator spread (...) np.
+const tab1 = [...tab2, ...tab3];
+slice(n,[m]) - wyciaga do m-indexu (ale bez niego) tablicy poczawszy od n-indexu tablicy 
+slice(-1) - jeden element od konca
+splice - metoda destrukcyjna!! modyfikuje tablicę - zwraca usuniete elementy
+splice(n,[m],[elem]); - od n-indexu usuwa m-elementów i zastepuje elementami [elem]
+mozemy tez dodawac w momencie kiedy m = 0
+sort - sortuje rosnaco - destrukcyjna
+indexOf - zwraca numer indexu patrzac od lewej strony
+lastIndexOf - zwraca numer indexu patrzac od konca
+includes - sprawdza czy istnieje w tablicy, zwraca true i false, sprawdza typy!
+join - łączy elementy tablicy, domyslnie oddziela je przecinkami
+reverse - odwraca tablice, metoda destrukcyjna
+split(odziel kiedy napotkasz znak ktory tu sie znajduje, ile elementów w nowej tablicy) - dziala na stringu
